@@ -341,7 +341,7 @@ void remove_data(struct Character base[100], size_t *size) {
     scanf("%d", &row);
     while(1) {
         if(row < 1 || row > 5) {
-            printf("Choose row from 1 to 5\n");
+            printf("Choose row from 1 to 6\n");
             continue;
         }
         break;
@@ -439,7 +439,7 @@ void find_data(struct Character base[100], const size_t *size) {
     scanf("%d", &row);
     while(1) {
         if(row < 1 || row > 5) {
-            printf("Choose row from 1 to 5\n");
+            printf("Choose row from 1 to 6\n");
             continue;
         }
         break;
